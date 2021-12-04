@@ -1,0 +1,73 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #f7f6f6;
+    height: 40vh;
+    padding: 25px;
+  }
+  
+  .head-top {
+    display: flex;
+    align-items: center;
+  }
+  
+  .head-top > p {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .search-box {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0971f1;
+    border-radius: 2px;
+    color: white;
+    height: 30px;
+    padding: 15px;
+    font-size: 25px;
+  }
+  .giticon {
+    transform: scale(1.5);
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container > div {
+    margin: 15px;
+    width: 30vw;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header {
+      background-color: #f7f6f6;
+      height: 40vh;
+      padding: 25px;
+    }
+  
+    .head-top > p {
+      font-size: 15px;
+      margin-left: 10px;
+    }
+    .search-box {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      width: 90%;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0971f1;
+      border-radius: 2px;
+      color: white;
+      height: 20px;
+      padding: 15px;
+      font-size: 15px;
+    }
+  }
+  

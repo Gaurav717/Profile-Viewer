@@ -1,0 +1,27 @@
+.text {
+    display: flex;
+    flex-direction: column;
+  }
+
+.text:hover{
+  cursor: pointer;
+  
+}
+.box {
+    display: flex;
+    padding: 5px;
+    border:1px solid #ececec;
+    border-radius: 5px;
+  
+  }
+  .desc {
+    margin-top: 0;
+    font-size: smaller;
+    font-weight: lighter;
+  }
+  .icon {
+    transform: scale(1.5);
+    margin: 5px;
+    color: #0971f1;
+  }
+  

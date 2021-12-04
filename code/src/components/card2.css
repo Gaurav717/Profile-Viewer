@@ -1,0 +1,20 @@
+.contact {
+    color: #0971f1;
+    transform: scale(2.5);
+    margin: 20px;
+  }
+  
+  .conCard {
+    width: 100%;
+    display: flex;
+    margin: 10px 10px 10px 0px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+  }
+  
+  .conCard > div {
+    width: 100%;
+  }
+  
